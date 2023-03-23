@@ -2,8 +2,8 @@
   font-family: Raleway;
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/raleway-v28-latin-regular.woff2') format('woff2'),
-      url('../fonts/raleway-v28-latin-regular.woff') format('woff');
+  src: url('../fonts/raleway-v28-latin_cyrillic-regular.woff2') format('woff2'),
+      url('..//fonts/raleway-v28-latin_cyrillic-regular.woff') format('woff');
 }
 
 html{
@@ -22,6 +22,7 @@ body{
 	line-height: 1.2;
 	background: #241D1C;
 	color: #F6F3E3;
+	font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 img{

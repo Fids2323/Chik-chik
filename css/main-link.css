@@ -8,6 +8,8 @@
 	text-transform: uppercase;
 	background: #F6F3E3;
 	text-decoration: none;
+	cursor: pointer;
+	border: none;
 }
 .main-link:hover:not(:disabled){
 	background: #EFE7BE;
